@@ -23,7 +23,7 @@ public class NaverResponse {
         private Response response;
 
         @Data
-        static class Response {
+        class Response {
             private String id;
             private String name; // 회원 이름
             private String email; // 이메일 주소
